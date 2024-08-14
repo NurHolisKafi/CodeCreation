@@ -191,6 +191,11 @@ Image credits: unsplash.com
   transition: 2s all ease-in-out 0.1s;
 }
 
+@media screen and (max-width: 402px) {
+  .hero span {
+    font-size: 0.9em;
+  }
+}
 /********************************/
 /*            Overlay           */
 /********************************/
